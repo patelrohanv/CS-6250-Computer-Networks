@@ -83,7 +83,8 @@ class Switch(StpSwitch):
             # switch.activeLinks.add(message.originID)
         # else if !message.pathThrough and message.origin in switch.activeLinks
             # switch.activeLinks.remove(message.originID)
-        
+        if message.originID not in switch.activeLinks:
+            self.activeLinks.add(message.origin)
         if message.pathThrough and message.origin not in self.activeLinks
             self.activeLinks.add(message.originID)
         elif not message.pathThrough and message.origin in self.activeLinks
@@ -103,4 +104,6 @@ class Switch(StpSwitch):
         #      for switch 2 would have the following text:
         #      2 - 1, 2 - 3
         #      A full example of a valid output file is included (sample_output.txt) with the project skeleton.
-        return "switch logstring"
+        self.activeLinks.sort()
+        links = [str(self.switchID) + ' - ' + str(link) for link in self.activeLinks]
+        return ', '.join(links)
