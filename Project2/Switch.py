@@ -57,7 +57,7 @@ class Switch(StpSwitch):
                 # origin =  the ID of the origin switch 
                 # destination = the ID of the destination switch
                 # pathThrough = Boolean value indicating the path to the claimed root from the origin passes through the destination 
-            msg = Message(self.root, self.distance, seld.switchID neighbor, False)
+            msg = Message(self.root, self.distance, self.switchID, neighbor, False)
             self.send_message(msg)    
         return
 
