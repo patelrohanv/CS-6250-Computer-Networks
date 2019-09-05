@@ -83,12 +83,12 @@ class Switch(StpSwitch):
             # switch.activeLinks.add(message.originID)
         # else if !message.pathThrough and message.origin in switch.activeLinks
             # switch.activeLinks.remove(message.originID)
-        if message.originID not in switch.activeLinks:
+        if message.origin not in switch.activeLinks:
             self.activeLinks.add(message.origin)
         if message.pathThrough and message.origin not in self.activeLinks:
-            self.activeLinks.add(message.originID)
+            self.activeLinks.add(message.origin)
         elif not message.pathThrough and message.origin in self.activeLinks:
-            self.activeLinks.remove(message.originID)
+            self.activeLinks.remove(message.origin)
 
         return
         
