@@ -33,14 +33,32 @@ class Switch(StpSwitch):
         # -self.switchID                   (the ID number of this switch object)
         # -self.links                      (the list of swtich IDs connected to this switch object)
         super(Switch, self).__init__(idNum, topolink, neighbors)
-        
         #TODO: Define a data structure to keep track of which links are part of / not part of the spanning tree.
+
+        # variable to store switchID (inherited from super), currently the root
+        # variable to store distance to switch's root, default 0
+        # list to store active links, default is empty
+        # variable to keep track of which neighbor it goes through to get to root, default itself is root
+
+        self.root = self.switchID
+        self.distance = 0
+        self.activeLinks = []
+        self.pathThrough = self.switchID
 
     def send_initial_messages(self):
         #TODO: This function needs to create and send the initial messages from this switch.
         #      Messages are sent via the superclass method send_message(Message msg) - see Message.py.
-	#      Use self.send_message(msg) to send this.  DO NOT use self.topology.send_message(msg)
-        return
+	    #      Use self.send_message(msg) to send this.  DO NOT use self.topology.send_message(msg)
+        
+        for neighbor in self.links:
+            # message fields
+                # root = id of the switch thought to be the root by the origin switch
+                # distance = the distance from the origin to the root node
+                # origin =  the ID of the origin switch 
+                # destination = the ID of the destination switch
+                # pathThrough = Boolean value indicating the path to the claimed root from the origin passes through the destination 
+            msg = Message(self.root, self.distance, seld.switchID neighbor, False)
+            self.send_message(msg)    
         
     def process_message(self, message):
         #TODO: This function needs to accept an incoming message and process it accordingly.
