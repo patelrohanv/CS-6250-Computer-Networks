@@ -59,10 +59,36 @@ class Switch(StpSwitch):
                 # pathThrough = Boolean value indicating the path to the claimed root from the origin passes through the destination 
             msg = Message(self.root, self.distance, seld.switchID neighbor, False)
             self.send_message(msg)    
-        
+        return
+
     def process_message(self, message):
         #TODO: This function needs to accept an incoming message and process it accordingly.
         #      This function is called every time the switch receives a new message.
+
+        # if switch.root > message.root
+            # update switch.root = message.root
+            # update switch.distance = message.distance
+        # if switch.distance > message.distance
+            # update switch.distance = message.distance
+        
+        if self.root > message.root:
+            self.root = message.root
+            self.distance = message.distance + 1
+        if self.distance > message.distance:
+            self.distance = message.distance + 1 
+
+        # if message.origin not in switch.activeLinks:
+            # switch.activeLinks.add(message.origin)
+        # else if message.pathThrough and message.origin not in switch.activeLinks
+            # switch.activeLinks.add(message.originID)
+        # else if !message.pathThrough and message.origin in switch.activeLinks
+            # switch.activeLinks.remove(message.originID)
+        
+        if message.pathThrough and message.origin not in self.activeLinks
+            self.activeLinks.add(message.originID)
+        elif not message.pathThrough and message.origin in self.activeLinks
+            self.activeLinks.remove(message.originID)
+
         return
         
     def generate_logstring(self):
