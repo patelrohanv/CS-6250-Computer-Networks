@@ -92,8 +92,8 @@ class Switch(StpSwitch):
             self.send_new_messages(message.origin)
 
         print '-------------------------'
-        print message
-        print self
+        print message.__str__()
+        print self.__str__()
         print '+++++++++++++++++++++++++'
         return
 
