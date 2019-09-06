@@ -109,5 +109,5 @@ class Switch(StpSwitch):
         #      2 - 1, 2 - 3
         #      A full example of a valid output file is included (sample_output.txt) with the project skeleton.
         self.activeLinks.sort()
-        links = [str('{} - {}'.format(self.switchID, link) for link in self.activeLinks]
+        links = ['{} - {}'.format(self.switchID, link) for link in self.activeLinks]
         return ', '.join(links)
