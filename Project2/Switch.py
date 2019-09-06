@@ -76,6 +76,7 @@ class Switch(StpSwitch):
         if self.distance + 1 > message.distance:
             self.distance = message.distance + 1 
             self.send_new_messages(message.origin)
+
         # update switch.activeLinks
         # add new link to activeLinks (and potentially remoe old link) if switch finds new path to root through different neighbor
         # add message.originID to activeLinks if message.pathThrough == True and message.originID not in activeLinks
@@ -93,8 +94,9 @@ class Switch(StpSwitch):
         return
 
     def send_new_messages(self, origin):
-        for link in self.activeLinks:
-            self.send_message(Message(self.root, self.distance, self.switchID, link, link == origin))
+        # pathThrough is only TRUE if destination(neighbor) is the original message's originID
+        for neighbor in self.activeLinks:
+            self.send_message(Message(self.root, self.distance, self.switchID, neighbor, neighbor == origin))
 
     def generate_logstring(self):
         #TODO: This function needs to return a logstring for this particular switch.  The
