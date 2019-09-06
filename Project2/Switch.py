@@ -91,6 +91,10 @@ class Switch(StpSwitch):
             self.activeLinks.remove(message.origin)
             self.send_new_messages(message.origin)
 
+        print '-------------------------'
+        print message
+        print self
+        print '+++++++++++++++++++++++++'
         return
 
     def send_new_messages(self, origin):
