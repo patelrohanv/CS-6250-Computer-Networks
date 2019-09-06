@@ -92,8 +92,8 @@ class Switch(StpSwitch):
             self.send_new_messages(message.origin)
 
         print '-------------------------'
-        print '{} {} {} {} {}'.format(message.root, message.distance, message.origin, message.destination, message.pathThrough)
-        print '{} {} {} {}'.format(self.root, self.distance, self.activeLinks, self.pathThrough)
+        print 'mRoot {} mDist {} mOr {} mDest {}  mThrough{}'.format(message.root, message.distance, message.origin, message.destination, message.pathThrough)
+        print 'sRoot {} sDist {} sAct {} sThrough {}'.format(self.root, self.distance, self.activeLinks, self.pathThrough)
         print '+++++++++++++++++++++++++'
         return
 
