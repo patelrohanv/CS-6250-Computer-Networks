@@ -65,15 +65,15 @@ class Switch(StpSwitch):
         #TODO: This function needs to accept an incoming message and process it accordingly.
         #      This function is called every time the switch receives a new message.
 
-        # update switch.root
-        # update switch root if message has lower root
-        # update switch distance if switch update's root or there's a shorter path to root
+        # updating switch.root
+        # update switch root and distance if message has lower root
+        # update switch distance if message has shorter distance to same root
         
         if self.root > message.root:
             self.root = message.root
             self.distance = message.distance + 1
             self.send_new_messages(message.origin)
-        if self.distance + 1 > message.distance:
+        if self.distance + 1 > message.distance and self.root == message.root:
             self.distance = message.distance + 1 
             self.send_new_messages(message.origin)
 
@@ -84,7 +84,7 @@ class Switch(StpSwitch):
         if message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
             self.send_new_messages(message.origin)
-        if message.pathThrough and message.origin not in self.activeLinks:
+        elif message.pathThrough and message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
             self.send_new_messages(message.origin)
         elif not message.pathThrough and message.origin in self.activeLinks:
