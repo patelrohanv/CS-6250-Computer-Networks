@@ -65,33 +65,37 @@ class Switch(StpSwitch):
         #TODO: This function needs to accept an incoming message and process it accordingly.
         #      This function is called every time the switch receives a new message.
 
-        # if switch.root > message.root
-            # update switch.root = message.root
-            # update switch.distance = message.distance
-        # if switch.distance > message.distance
-            # update switch.distance = message.distance
+        # update switch.root
+        # update switch root if message has lower root
+        # update switch distance if switch update's root or there's a shorter path to root
         
         if self.root > message.root:
             self.root = message.root
             self.distance = message.distance + 1
-        if self.distance > message.distance:
+            self.send_new_messages(message.origin)
+        if self.distance + 1 > message.distance:
             self.distance = message.distance + 1 
-
-        # if message.origin not in switch.activeLinks:
-            # switch.activeLinks.add(message.origin)
-        # else if message.pathThrough and message.origin not in switch.activeLinks
-            # switch.activeLinks.add(message.originID)
-        # else if !message.pathThrough and message.origin in switch.activeLinks
-            # switch.activeLinks.remove(message.originID)
+            self.send_new_messages(message.origin)
+        # update switch.activeLinks
+        # add new link to activeLinks (and potentially remoe old link) if switch finds new path to root through different neighbor
+        # add message.originID to activeLinks if message.pathThrough == True and message.originID not in activeLinks
+        # remove (maybe) message.originID from activeLinks if message.pathThrough == False and message.originID in activeLinks
         if message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
+            self.send_new_messages(message.origin)
         if message.pathThrough and message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
+            self.send_new_messages(message.origin)
         elif not message.pathThrough and message.origin in self.activeLinks:
             self.activeLinks.remove(message.origin)
+            self.send_new_messages(message.origin)
 
         return
-        
+
+    def send_new_messages(self, origin)  
+        for link in self.activeLinks:
+            self.send_message(Message(self.root, self.distance, self.switchID, link, link == origin))
+
     def generate_logstring(self):
         #TODO: This function needs to return a logstring for this particular switch.  The
         #      string represents the active forwarding links for this switch and is invoked 
@@ -105,5 +109,5 @@ class Switch(StpSwitch):
         #      2 - 1, 2 - 3
         #      A full example of a valid output file is included (sample_output.txt) with the project skeleton.
         self.activeLinks.sort()
-        links = [str(self.switchID) + ' - ' + str(link) for link in self.activeLinks]
+        links = [str('{} - {}'.format(self.switchID, link) for link in self.activeLinks]
         return ', '.join(links)
