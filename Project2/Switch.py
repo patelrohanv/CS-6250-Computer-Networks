@@ -72,9 +72,15 @@ class Switch(StpSwitch):
         if self.root > message.root:
             self.root = message.root
             self.distance = message.distance + 1
+            self.pathThrough = message.origin
+            if self.pathThrough not in self.activeLinks:
+                self.activeLinks.append(self.pathThrough)
             self.send_new_messages(message.origin)
         if self.distance + 1 > message.distance and self.root == message.root:
-            self.distance = message.distance + 1 
+            self.distance = message.distance + 1
+            self.pathThrough = message.origin
+            if self.pathThrough not in self.activeLinks:
+                self.activeLinks.append(self.pathThrough)
             self.send_new_messages(message.origin)
 
         # update switch.activeLinks
