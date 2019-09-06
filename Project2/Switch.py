@@ -81,8 +81,9 @@ class Switch(StpSwitch):
         ## add new link to activeLinks (and potentially remoe old link) if switch finds new path to root through different neighbor
         ## add message.originID to activeLinks if message.pathThrough == True and message.originID not in activeLinks
         ## remove (maybe) message.originID from activeLinks if message.pathThrough == False and message.originID in activeLinks
-        if message.origin not in self.activeLinks and message.root == self.root:
+        if  message.root == self.root and message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
+            self.activeLinks.remove(pathThrough)
             self.send_new_messages(message.origin)
         elif message.pathThrough and message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
