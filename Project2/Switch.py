@@ -66,8 +66,8 @@ class Switch(StpSwitch):
         #      This function is called every time the switch receives a new message.
 
         # updating switch.root
-        # update switch root and distance if message has lower root
-        # update switch distance if message has shorter distance to same root
+        ## update switch root and distance if message has lower root
+        ## update switch distance if message has shorter distance to same root
         
         if self.root > message.root:
             self.root = message.root
@@ -79,12 +79,9 @@ class Switch(StpSwitch):
 
         # update switch.activeLinks
         # add new link to activeLinks (and potentially remoe old link) if switch finds new path to root through different neighbor
-        # add message.originID to activeLinks if message.pathThrough == True and message.originID not in activeLinks
-        # remove (maybe) message.originID from activeLinks if message.pathThrough == False and message.originID in activeLinks
-        if message.origin not in self.activeLinks:
-            self.activeLinks.append(message.origin)
-            self.send_new_messages(message.origin)
-        elif message.pathThrough and message.origin not in self.activeLinks:
+        ## add message.originID to activeLinks if message.pathThrough == True and message.originID not in activeLinks
+        ## remove (maybe) message.originID from activeLinks if message.pathThrough == False and message.originID in activeLinks
+        if message.pathThrough and message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
             self.send_new_messages(message.origin)
         elif not message.pathThrough and message.origin in self.activeLinks:
