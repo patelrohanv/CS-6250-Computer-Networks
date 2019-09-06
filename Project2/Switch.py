@@ -92,7 +92,7 @@ class Switch(StpSwitch):
 
         return
 
-    def send_new_messages(self, origin)  
+    def send_new_messages(self, origin):
         for link in self.activeLinks:
             self.send_message(Message(self.root, self.distance, self.switchID, link, link == origin))
 
