@@ -68,45 +68,62 @@ class Switch(StpSwitch):
         # updating switch.root
         ## update switch root and distance if message has lower root
         ## update switch distance if message has shorter distance to same root
-        
+        # print '------------------------------'
+        # print self
+        # print message
+
+        state_changed = False
+
         if self.root > message.root:
             self.root = message.root
             self.distance = message.distance + 1
             self.pathThrough = message.origin
-            if self.pathThrough not in self.activeLinks:
-                self.activeLinks.append(self.pathThrough)
-            self.send_new_messages(message.origin)
-        if self.distance + 1 > message.distance and self.root == message.root:
+            self.activeLinks = []
+            self.activeLinks.append(self.pathThrough)
+            state_changed = True
+
+        if self.distance > message.distance + 1 and self.root == message.root:
             self.distance = message.distance + 1
             self.pathThrough = message.origin
             if self.pathThrough not in self.activeLinks:
                 self.activeLinks.append(self.pathThrough)
-            self.send_new_messages(message.origin)
+            state_changed = True
+        elif self.distance == message.distance and self.root == message.root and self.pathThrough > message.origin:
+            # print 'here'
+            self.activeLinks.remove(self.pathThrough)
+            self.pathThrough = message.origin
+            if self.pathThrough not in self.activeLinks:
+                self.activeLinks.append(self.pathThrough)
+            state_changed = True
+
 
         # update switch.activeLinks
         ## add new link to activeLinks (and potentially remove old link) if switch finds new path to root through different neighbor
         ## add message.originID to activeLinks if message.pathThrough == True and message.originID not in activeLinks
         ## remove (maybe) message.originID from activeLinks if message.pathThrough == False and message.originID in activeLinks
-        if  message.root == self.root and message.origin not in self.activeLinks:
+        if  message.root == self.root and message.origin not in self.activeLinks and message.pathThrough:
             self.activeLinks.append(message.origin)
-            self.send_new_messages(message.origin)
         elif message.pathThrough and message.origin not in self.activeLinks:
             self.activeLinks.append(message.origin)
-            self.send_new_messages(message.origin)
-        elif not message.pathThrough and message.origin in self.activeLinks:
-            self.activeLinks.remove(message.origin)
-            self.send_new_messages(message.origin)
 
-        # print '-------------------------'
-        # print 'mRoot {} mDist {} mOr {} mDest {}  mThrough {}'.format(message.root, message.distance, message.origin, message.destination, message.pathThrough)
-        # print 'sRoot {} sDist {} sAct {} sThrough {}'.format(self.root, self.distance, self.activeLinks, self.pathThrough)
-        # print '+++++++++++++++++++++++++'
+        # Sending messages
+        if state_changed:
+            self.send_new_messages(message.origin)
+        # print self
+
         return
 
     def send_new_messages(self, origin):
         # pathThrough is only TRUE if destination(neighbor) is the original message's originID
-        for neighbor in self.activeLinks:
-            self.send_message(Message(self.root, self.distance, self.switchID, neighbor, neighbor == origin))
+        # print('sending')
+        for neighbor in self.links:
+            m = Message(self.root, self.distance, self.switchID, neighbor, neighbor == origin)
+            # print(m)
+            self.send_message(m)
+        # print('done sending')
+
+    def __str__(self):
+        return "ID: {}, ROOT: {}, DIST: {}, ACTIVE: {}, PATHTHROUGH: {}".format(self.switchID, self.root, self.distance, self.activeLinks, self.pathThrough)
 
     def generate_logstring(self):
         #TODO: This function needs to return a logstring for this particular switch.  The

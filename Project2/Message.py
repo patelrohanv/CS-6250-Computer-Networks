@@ -20,6 +20,10 @@ class Message(object):
         self.destination = destinationID
         self.pathThrough = pathThrough
 
+
+    def __str__(self):
+        return "ORG: {}, DEST: {}, ROOT: {},  D: {}, PATH: {}".format(self.origin, self.destination, self.root, self.distance, self.pathThrough)
+
     # Member function that returns True if the message is properly formed, and False otherwise
     def verify_message(self):
         valid = True
