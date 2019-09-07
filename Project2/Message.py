@@ -30,3 +30,6 @@ class Message(object):
             valid = False
         
         return valid
+
+    def __str__(self):
+        return "ORG: {}, DEST: {}, ROOT: {},  D: {}, PATH: {}".format(self.origin, self.destination, self.root, self.distance, self.pathThrough)

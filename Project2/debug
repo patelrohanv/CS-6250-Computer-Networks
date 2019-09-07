@@ -1,0 +1,552 @@
+------------------------------
+ID: 2, ROOT: 2, DIST: 0, ACTIVE: [], PATHTHROUGH: 2
+ORG: 1, DEST: 2, ROOT: 1,  D: 0, PATH: False
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+------------------------------
+ID: 5, ROOT: 5, DIST: 0, ACTIVE: [], PATHTHROUGH: 5
+ORG: 1, DEST: 5, ROOT: 1,  D: 0, PATH: False
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+------------------------------
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [], PATHTHROUGH: 1
+ORG: 2, DEST: 1, ROOT: 2,  D: 0, PATH: False
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [], PATHTHROUGH: 1
+------------------------------
+ID: 3, ROOT: 3, DIST: 0, ACTIVE: [], PATHTHROUGH: 3
+ORG: 2, DEST: 3, ROOT: 2,  D: 0, PATH: False
+ID: 3, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 6, ROOT: 6, DIST: 0, ACTIVE: [], PATHTHROUGH: 6
+ORG: 2, DEST: 6, ROOT: 2,  D: 0, PATH: False
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+ORG: 3, DEST: 2, ROOT: 3,  D: 0, PATH: False
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+------------------------------
+ID: 7, ROOT: 7, DIST: 0, ACTIVE: [], PATHTHROUGH: 7
+ORG: 3, DEST: 7, ROOT: 3,  D: 0, PATH: False
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 4, ROOT: 4, DIST: 0, ACTIVE: [], PATHTHROUGH: 4
+ORG: 3, DEST: 4, ROOT: 3,  D: 0, PATH: False
+ID: 4, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 3, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 4, DEST: 3, ROOT: 4,  D: 0, PATH: False
+ID: 3, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 8, ROOT: 8, DIST: 0, ACTIVE: [], PATHTHROUGH: 8
+ORG: 4, DEST: 8, ROOT: 4,  D: 0, PATH: False
+ID: 8, ROOT: 4, DIST: 1, ACTIVE: [4], PATHTHROUGH: 4
+------------------------------
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [], PATHTHROUGH: 1
+ORG: 5, DEST: 1, ROOT: 5,  D: 0, PATH: False
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [], PATHTHROUGH: 1
+------------------------------
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 5, DEST: 6, ROOT: 5,  D: 0, PATH: False
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 9, ROOT: 9, DIST: 0, ACTIVE: [], PATHTHROUGH: 9
+ORG: 5, DEST: 9, ROOT: 5,  D: 0, PATH: False
+ID: 9, ROOT: 5, DIST: 1, ACTIVE: [5], PATHTHROUGH: 5
+------------------------------
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+ORG: 6, DEST: 2, ROOT: 6,  D: 0, PATH: False
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+------------------------------
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+ORG: 6, DEST: 5, ROOT: 6,  D: 0, PATH: False
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+------------------------------
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 6, DEST: 7, ROOT: 6,  D: 0, PATH: False
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 10, DIST: 0, ACTIVE: [], PATHTHROUGH: 10
+ORG: 6, DEST: 10, ROOT: 6,  D: 0, PATH: False
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 3, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 7, DEST: 3, ROOT: 7,  D: 0, PATH: False
+ID: 3, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 7, DEST: 6, ROOT: 7,  D: 0, PATH: False
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 11, ROOT: 11, DIST: 0, ACTIVE: [], PATHTHROUGH: 11
+ORG: 7, DEST: 11, ROOT: 7,  D: 0, PATH: False
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 8, ROOT: 4, DIST: 1, ACTIVE: [4], PATHTHROUGH: 4
+ORG: 7, DEST: 8, ROOT: 7,  D: 0, PATH: False
+ID: 8, ROOT: 4, DIST: 1, ACTIVE: [4], PATHTHROUGH: 4
+------------------------------
+ID: 4, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 8, DEST: 4, ROOT: 8,  D: 0, PATH: False
+ID: 4, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 8, DEST: 7, ROOT: 8,  D: 0, PATH: False
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 12, ROOT: 12, DIST: 0, ACTIVE: [], PATHTHROUGH: 12
+ORG: 8, DEST: 12, ROOT: 8,  D: 0, PATH: False
+ID: 12, ROOT: 8, DIST: 1, ACTIVE: [8], PATHTHROUGH: 8
+------------------------------
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+ORG: 9, DEST: 5, ROOT: 9,  D: 0, PATH: False
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+------------------------------
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 9, DEST: 10, ROOT: 9,  D: 0, PATH: False
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 10, DEST: 6, ROOT: 10,  D: 0, PATH: False
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 9, ROOT: 5, DIST: 1, ACTIVE: [5], PATHTHROUGH: 5
+ORG: 10, DEST: 9, ROOT: 10,  D: 0, PATH: False
+ID: 9, ROOT: 5, DIST: 1, ACTIVE: [5], PATHTHROUGH: 5
+------------------------------
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 10, DEST: 11, ROOT: 10,  D: 0, PATH: False
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 13, ROOT: 13, DIST: 0, ACTIVE: [], PATHTHROUGH: 13
+ORG: 10, DEST: 13, ROOT: 10,  D: 0, PATH: False
+ID: 13, ROOT: 10, DIST: 1, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 11, DEST: 7, ROOT: 11,  D: 0, PATH: False
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 11, DEST: 10, ROOT: 11,  D: 0, PATH: False
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 12, ROOT: 8, DIST: 1, ACTIVE: [8], PATHTHROUGH: 8
+ORG: 11, DEST: 12, ROOT: 11,  D: 0, PATH: False
+ID: 12, ROOT: 8, DIST: 1, ACTIVE: [8], PATHTHROUGH: 8
+------------------------------
+ID: 13, ROOT: 10, DIST: 1, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 11, DEST: 13, ROOT: 11,  D: 0, PATH: False
+ID: 13, ROOT: 10, DIST: 1, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 8, ROOT: 4, DIST: 1, ACTIVE: [4], PATHTHROUGH: 4
+ORG: 12, DEST: 8, ROOT: 12,  D: 0, PATH: False
+ID: 8, ROOT: 4, DIST: 1, ACTIVE: [4], PATHTHROUGH: 4
+------------------------------
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 11, ROOT: 12,  D: 0, PATH: False
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 13, DEST: 10, ROOT: 13,  D: 0, PATH: False
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 13, DEST: 11, ROOT: 13,  D: 0, PATH: False
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [], PATHTHROUGH: 1
+ORG: 2, DEST: 1, ROOT: 1,  D: 1, PATH: True
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [2], PATHTHROUGH: 1
+------------------------------
+ID: 3, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 2, DEST: 3, ROOT: 1,  D: 1, PATH: False
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 6, ROOT: 2, DIST: 1, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 2, DEST: 6, ROOT: 1,  D: 1, PATH: False
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [2], PATHTHROUGH: 1
+ORG: 5, DEST: 1, ROOT: 1,  D: 1, PATH: True
+ID: 1, ROOT: 1, DIST: 0, ACTIVE: [2, 5], PATHTHROUGH: 1
+------------------------------
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 5, DEST: 6, ROOT: 1,  D: 1, PATH: False
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 9, ROOT: 5, DIST: 1, ACTIVE: [5], PATHTHROUGH: 5
+ORG: 5, DEST: 9, ROOT: 1,  D: 1, PATH: False
+ID: 9, ROOT: 1, DIST: 2, ACTIVE: [5], PATHTHROUGH: 5
+------------------------------
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+ORG: 3, DEST: 2, ROOT: 2,  D: 1, PATH: True
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1, 3], PATHTHROUGH: 1
+------------------------------
+ID: 7, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 3, DEST: 7, ROOT: 2,  D: 1, PATH: False
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 4, ROOT: 3, DIST: 1, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 3, DEST: 4, ROOT: 2,  D: 1, PATH: False
+ID: 4, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1, 3], PATHTHROUGH: 1
+ORG: 6, DEST: 2, ROOT: 2,  D: 1, PATH: True
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1, 3, 6], PATHTHROUGH: 1
+------------------------------
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+ORG: 6, DEST: 5, ROOT: 2,  D: 1, PATH: False
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+------------------------------
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 6, DEST: 7, ROOT: 2,  D: 1, PATH: False
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 6, DIST: 1, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 6, DEST: 10, ROOT: 2,  D: 1, PATH: False
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 7, DEST: 3, ROOT: 3,  D: 1, PATH: True
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7], PATHTHROUGH: 2
+------------------------------
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 7, DEST: 6, ROOT: 3,  D: 1, PATH: False
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+------------------------------
+ID: 11, ROOT: 7, DIST: 1, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 7, DEST: 11, ROOT: 3,  D: 1, PATH: False
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 8, ROOT: 4, DIST: 1, ACTIVE: [4], PATHTHROUGH: 4
+ORG: 7, DEST: 8, ROOT: 3,  D: 1, PATH: False
+ID: 8, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7], PATHTHROUGH: 2
+ORG: 4, DEST: 3, ROOT: 3,  D: 1, PATH: True
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+------------------------------
+ID: 8, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 4, DEST: 8, ROOT: 3,  D: 1, PATH: False
+ID: 8, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 4, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 8, DEST: 4, ROOT: 4,  D: 1, PATH: True
+ID: 4, ROOT: 2, DIST: 2, ACTIVE: [3, 8], PATHTHROUGH: 3
+------------------------------
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 8, DEST: 7, ROOT: 4,  D: 1, PATH: False
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 12, ROOT: 8, DIST: 1, ACTIVE: [8], PATHTHROUGH: 8
+ORG: 8, DEST: 12, ROOT: 4,  D: 1, PATH: False
+ID: 12, ROOT: 4, DIST: 2, ACTIVE: [8], PATHTHROUGH: 8
+------------------------------
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1], PATHTHROUGH: 1
+ORG: 9, DEST: 5, ROOT: 5,  D: 1, PATH: True
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1, 9], PATHTHROUGH: 1
+------------------------------
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 9, DEST: 10, ROOT: 5,  D: 1, PATH: False
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2], PATHTHROUGH: 2
+ORG: 10, DEST: 6, ROOT: 6,  D: 1, PATH: True
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+------------------------------
+ID: 9, ROOT: 1, DIST: 2, ACTIVE: [5], PATHTHROUGH: 5
+ORG: 10, DEST: 9, ROOT: 6,  D: 1, PATH: False
+ID: 9, ROOT: 1, DIST: 2, ACTIVE: [5], PATHTHROUGH: 5
+------------------------------
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 10, DEST: 11, ROOT: 6,  D: 1, PATH: False
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 13, ROOT: 10, DIST: 1, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 10, DEST: 13, ROOT: 6,  D: 1, PATH: False
+ID: 13, ROOT: 6, DIST: 2, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 11, DEST: 7, ROOT: 7,  D: 1, PATH: True
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3, 11], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 11, DEST: 10, ROOT: 7,  D: 1, PATH: False
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 12, ROOT: 4, DIST: 2, ACTIVE: [8], PATHTHROUGH: 8
+ORG: 11, DEST: 12, ROOT: 7,  D: 1, PATH: False
+ID: 12, ROOT: 4, DIST: 2, ACTIVE: [8], PATHTHROUGH: 8
+------------------------------
+ID: 13, ROOT: 6, DIST: 2, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 11, DEST: 13, ROOT: 7,  D: 1, PATH: False
+ID: 13, ROOT: 6, DIST: 2, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 8, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 8, ROOT: 8,  D: 1, PATH: True
+ID: 8, ROOT: 3, DIST: 2, ACTIVE: [7, 12], PATHTHROUGH: 7
+------------------------------
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 11, ROOT: 8,  D: 1, PATH: False
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 13, DEST: 10, ROOT: 10,  D: 1, PATH: True
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6, 13], PATHTHROUGH: 6
+------------------------------
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 13, DEST: 11, ROOT: 10,  D: 1, PATH: False
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1, 3, 6], PATHTHROUGH: 1
+ORG: 3, DEST: 2, ROOT: 1,  D: 2, PATH: True
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1, 3, 6], PATHTHROUGH: 1
+------------------------------
+ID: 7, ROOT: 2, DIST: 2, ACTIVE: [3, 11], PATHTHROUGH: 3
+ORG: 3, DEST: 7, ROOT: 1,  D: 2, PATH: False
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 4, ROOT: 2, DIST: 2, ACTIVE: [3, 8], PATHTHROUGH: 3
+ORG: 3, DEST: 4, ROOT: 1,  D: 2, PATH: False
+ID: 4, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1, 3, 6], PATHTHROUGH: 1
+ORG: 6, DEST: 2, ROOT: 1,  D: 2, PATH: True
+ID: 2, ROOT: 1, DIST: 1, ACTIVE: [1, 3, 6], PATHTHROUGH: 1
+------------------------------
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1, 9], PATHTHROUGH: 1
+ORG: 6, DEST: 5, ROOT: 1,  D: 2, PATH: False
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1, 9], PATHTHROUGH: 1
+------------------------------
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 6, DEST: 7, ROOT: 1,  D: 2, PATH: False
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 2, DIST: 2, ACTIVE: [6, 13], PATHTHROUGH: 6
+ORG: 6, DEST: 10, ROOT: 1,  D: 2, PATH: False
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1, 9], PATHTHROUGH: 1
+ORG: 9, DEST: 5, ROOT: 1,  D: 2, PATH: True
+ID: 5, ROOT: 1, DIST: 1, ACTIVE: [1, 9], PATHTHROUGH: 1
+------------------------------
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 9, DEST: 10, ROOT: 1,  D: 2, PATH: False
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+ORG: 7, DEST: 3, ROOT: 2,  D: 2, PATH: True
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+------------------------------
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+ORG: 7, DEST: 6, ROOT: 2,  D: 2, PATH: False
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+------------------------------
+ID: 11, ROOT: 3, DIST: 2, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 7, DEST: 11, ROOT: 2,  D: 2, PATH: False
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 8, ROOT: 3, DIST: 2, ACTIVE: [7, 12], PATHTHROUGH: 7
+ORG: 7, DEST: 8, ROOT: 2,  D: 2, PATH: False
+ID: 8, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+ORG: 4, DEST: 3, ROOT: 2,  D: 2, PATH: True
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+------------------------------
+ID: 8, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 4, DEST: 8, ROOT: 2,  D: 2, PATH: False
+ID: 8, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+ORG: 10, DEST: 6, ROOT: 2,  D: 2, PATH: True
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+------------------------------
+ID: 9, ROOT: 1, DIST: 2, ACTIVE: [5], PATHTHROUGH: 5
+ORG: 10, DEST: 9, ROOT: 2,  D: 2, PATH: False
+ID: 9, ROOT: 1, DIST: 2, ACTIVE: [5], PATHTHROUGH: 5
+------------------------------
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 10, DEST: 11, ROOT: 2,  D: 2, PATH: False
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 13, ROOT: 6, DIST: 2, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 10, DEST: 13, ROOT: 2,  D: 2, PATH: False
+ID: 13, ROOT: 2, DIST: 3, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 11, DEST: 7, ROOT: 3,  D: 2, PATH: True
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 11, DEST: 10, ROOT: 3,  D: 2, PATH: False
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6], PATHTHROUGH: 6
+------------------------------
+ID: 12, ROOT: 4, DIST: 2, ACTIVE: [8], PATHTHROUGH: 8
+ORG: 11, DEST: 12, ROOT: 3,  D: 2, PATH: False
+ID: 12, ROOT: 3, DIST: 3, ACTIVE: [11], PATHTHROUGH: 11
+------------------------------
+ID: 13, ROOT: 2, DIST: 3, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 11, DEST: 13, ROOT: 3,  D: 2, PATH: False
+ID: 13, ROOT: 2, DIST: 3, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 4, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 8, DEST: 4, ROOT: 3,  D: 2, PATH: False
+ID: 4, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11], PATHTHROUGH: 3
+ORG: 8, DEST: 7, ROOT: 3,  D: 2, PATH: True
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+------------------------------
+ID: 12, ROOT: 3, DIST: 3, ACTIVE: [11], PATHTHROUGH: 11
+ORG: 8, DEST: 12, ROOT: 3,  D: 2, PATH: False
+ID: 12, ROOT: 3, DIST: 3, ACTIVE: [11], PATHTHROUGH: 11
+------------------------------
+ID: 8, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 8, ROOT: 4,  D: 2, PATH: True
+ID: 8, ROOT: 2, DIST: 3, ACTIVE: [7, 12], PATHTHROUGH: 7
+------------------------------
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 11, ROOT: 4,  D: 2, PATH: False
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6], PATHTHROUGH: 6
+ORG: 13, DEST: 10, ROOT: 6,  D: 2, PATH: True
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+------------------------------
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 13, DEST: 11, ROOT: 6,  D: 2, PATH: False
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+ORG: 7, DEST: 3, ROOT: 1,  D: 3, PATH: True
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+------------------------------
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+ORG: 7, DEST: 6, ROOT: 1,  D: 3, PATH: False
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+------------------------------
+ID: 11, ROOT: 2, DIST: 3, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 7, DEST: 11, ROOT: 1,  D: 3, PATH: False
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 8, ROOT: 2, DIST: 3, ACTIVE: [7, 12], PATHTHROUGH: 7
+ORG: 7, DEST: 8, ROOT: 1,  D: 3, PATH: False
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+ORG: 4, DEST: 3, ROOT: 1,  D: 3, PATH: True
+ID: 3, ROOT: 1, DIST: 2, ACTIVE: [2, 7, 4], PATHTHROUGH: 2
+------------------------------
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 4, DEST: 8, ROOT: 1,  D: 3, PATH: False
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+ORG: 10, DEST: 6, ROOT: 1,  D: 3, PATH: True
+ID: 6, ROOT: 1, DIST: 2, ACTIVE: [2, 10], PATHTHROUGH: 2
+------------------------------
+ID: 9, ROOT: 1, DIST: 2, ACTIVE: [5], PATHTHROUGH: 5
+ORG: 10, DEST: 9, ROOT: 1,  D: 3, PATH: False
+ID: 9, ROOT: 1, DIST: 2, ACTIVE: [5], PATHTHROUGH: 5
+------------------------------
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 10, DEST: 11, ROOT: 1,  D: 3, PATH: False
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 13, ROOT: 2, DIST: 3, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 10, DEST: 13, ROOT: 1,  D: 3, PATH: False
+ID: 13, ROOT: 1, DIST: 4, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+ORG: 11, DEST: 7, ROOT: 2,  D: 3, PATH: True
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+ORG: 11, DEST: 10, ROOT: 2,  D: 3, PATH: False
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+------------------------------
+ID: 12, ROOT: 3, DIST: 3, ACTIVE: [11], PATHTHROUGH: 11
+ORG: 11, DEST: 12, ROOT: 2,  D: 3, PATH: False
+ID: 12, ROOT: 2, DIST: 4, ACTIVE: [11], PATHTHROUGH: 11
+------------------------------
+ID: 13, ROOT: 1, DIST: 4, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 11, DEST: 13, ROOT: 2,  D: 3, PATH: False
+ID: 13, ROOT: 1, DIST: 4, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 4, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 8, DEST: 4, ROOT: 2,  D: 3, PATH: False
+ID: 4, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+ORG: 8, DEST: 7, ROOT: 2,  D: 3, PATH: True
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+------------------------------
+ID: 12, ROOT: 2, DIST: 4, ACTIVE: [11], PATHTHROUGH: 11
+ORG: 8, DEST: 12, ROOT: 2,  D: 3, PATH: False
+ID: 12, ROOT: 2, DIST: 4, ACTIVE: [11], PATHTHROUGH: 11
+------------------------------
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+ORG: 13, DEST: 10, ROOT: 2,  D: 3, PATH: True
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+------------------------------
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 13, DEST: 11, ROOT: 2,  D: 3, PATH: False
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 8, ROOT: 3,  D: 3, PATH: False
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 11, ROOT: 3,  D: 3, PATH: True
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7, 12], PATHTHROUGH: 7
+------------------------------
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+ORG: 11, DEST: 7, ROOT: 1,  D: 4, PATH: True
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+------------------------------
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+ORG: 11, DEST: 10, ROOT: 1,  D: 4, PATH: False
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+------------------------------
+ID: 12, ROOT: 2, DIST: 4, ACTIVE: [11], PATHTHROUGH: 11
+ORG: 11, DEST: 12, ROOT: 1,  D: 4, PATH: False
+ID: 12, ROOT: 1, DIST: 5, ACTIVE: [11], PATHTHROUGH: 11
+------------------------------
+ID: 13, ROOT: 1, DIST: 4, ACTIVE: [10], PATHTHROUGH: 10
+ORG: 11, DEST: 13, ROOT: 1,  D: 4, PATH: False
+ID: 13, ROOT: 1, DIST: 4, ACTIVE: [10], PATHTHROUGH: 10
+------------------------------
+ID: 4, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+ORG: 8, DEST: 4, ROOT: 1,  D: 4, PATH: False
+ID: 4, ROOT: 1, DIST: 3, ACTIVE: [3], PATHTHROUGH: 3
+------------------------------
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+ORG: 8, DEST: 7, ROOT: 1,  D: 4, PATH: True
+ID: 7, ROOT: 1, DIST: 3, ACTIVE: [3, 11, 8], PATHTHROUGH: 3
+------------------------------
+ID: 12, ROOT: 1, DIST: 5, ACTIVE: [11], PATHTHROUGH: 11
+ORG: 8, DEST: 12, ROOT: 1,  D: 4, PATH: False
+ID: 12, ROOT: 1, DIST: 5, ACTIVE: [11], PATHTHROUGH: 11
+------------------------------
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+ORG: 13, DEST: 10, ROOT: 1,  D: 4, PATH: True
+ID: 10, ROOT: 1, DIST: 3, ACTIVE: [6, 13], PATHTHROUGH: 6
+------------------------------
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7, 12], PATHTHROUGH: 7
+ORG: 13, DEST: 11, ROOT: 1,  D: 4, PATH: False
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7, 12], PATHTHROUGH: 7
+------------------------------
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 8, ROOT: 2,  D: 4, PATH: False
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7, 12], PATHTHROUGH: 7
+ORG: 12, DEST: 11, ROOT: 2,  D: 4, PATH: True
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7, 12], PATHTHROUGH: 7
+------------------------------
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+ORG: 12, DEST: 8, ROOT: 1,  D: 5, PATH: False
+ID: 8, ROOT: 1, DIST: 4, ACTIVE: [7], PATHTHROUGH: 7
+------------------------------
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7, 12], PATHTHROUGH: 7
+ORG: 12, DEST: 11, ROOT: 1,  D: 5, PATH: True
+ID: 11, ROOT: 1, DIST: 4, ACTIVE: [7, 12], PATHTHROUGH: 7
